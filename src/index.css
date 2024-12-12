@@ -324,8 +324,8 @@ span {
   .parte1a {
     display: flex;
     flex-direction: column;
-    max-width: 70%;
-    min-width: 70%;
+    max-width: 85%;
+    min-width: 85%;
     width: 100%;
     row-gap: 40px;
     align-items: center;
@@ -337,6 +337,7 @@ span {
     line-height: 1.0;
     letter-spacing: 3px;
     text-align: center;
+
   }
 
   .parte1a p {
@@ -399,7 +400,7 @@ span {
   }
 
   .desconto .chamada {
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
   }
 
 
