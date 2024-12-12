@@ -64,7 +64,7 @@ span {
 
 .parte1,
 .parte3 {
-  background-image: url('./assets/imagens/backgound01.jpg');
+  background-image: url('./assets/backgound01.jpg');
   background-size: cover;
   /* Faz a imagem preencher o container */
 

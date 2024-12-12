@@ -1,7 +1,7 @@
 /* import { useState } from 'react' */
 import './index.css'
-import mockupImage from './assets/imagens/mockup.png'
-import logo from './assets/imagens/logo.jpg'
+import mockupImage from './assets/mockup.png'
+import logo from './assets/logo.jpg'
 
 function App() {
   const redirectToKirvano = () => {
