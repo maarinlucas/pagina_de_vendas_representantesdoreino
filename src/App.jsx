@@ -18,7 +18,7 @@ function App() {
         y: 0,
         opacity: 1,
         scrollTrigger: {
-          trigger: ".parte1a",
+          trigger: ".parte1",
           start: "top 100%"
         }
       });
@@ -29,7 +29,7 @@ function App() {
           y: 0,
           opacity: 1,
           scrollTrigger: {
-            trigger: ".parte1a",
+            trigger: ".parte1",
             start: "top 100%"
           }
         });
@@ -39,7 +39,7 @@ function App() {
           opacity: 1,
           scrollTrigger: {
             trigger: ".parte2",
-            start: "top 80%"
+            start: "top 75%"
           }
         });
   
@@ -48,7 +48,7 @@ function App() {
           opacity: 1,
           scrollTrigger: {
             trigger: ".parte2",
-            start: "top 80%"
+            start: "top 75%"
           }
         });
   
@@ -56,7 +56,7 @@ function App() {
           opacity: 1,
           scrollTrigger: {
             trigger: ".parte3",
-            start: "top 80%"
+             start: "top 75%"
           }
         });
   
@@ -66,7 +66,7 @@ function App() {
           opacity: 1,
           scrollTrigger: {
             trigger: ".parte3",
-            start: "top 80%"
+             start: "top 75%"
           }
         });
   
@@ -76,7 +76,7 @@ function App() {
           opacity: 1,
           scrollTrigger: {
             trigger: ".parte4",
-            start: "top 80%"
+             start: "top 75%"
           }
         });
   
@@ -86,7 +86,7 @@ function App() {
           opacity: 1,
           scrollTrigger: {
             trigger: ".parte4",
-            start: "top 80%"
+             start: "top 75%"
           }
         });
       
@@ -157,7 +157,7 @@ function App() {
       </div>
 
       <div className="parte4">
-        <h2>Aproveite seu cupom limitado clicando no botão abaixo, adquira o ebook, e torne-se o próximo herói da fé!</h2>
+        <h2 className="h24">Aproveite seu cupom limitado clicando no botão abaixo, adquira o ebook, e torne-se o próximo herói da fé!</h2>
         <button className='chamada' onClick={redirectToKirvano}>SIM, EU QUERO ME TORNAR UM HERÓI DA FÉ</button>
         <div className="Copyright">
           <div className="logo">
