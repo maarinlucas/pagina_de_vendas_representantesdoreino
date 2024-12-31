@@ -28,7 +28,7 @@ span {
 
 /* Estilo para os botões */
 .chamada {
-  background: linear-gradient(90deg, #5de0e6, #004aad);
+  background: linear-gradient(to top, #004aad, #5de0e6);
   /* Gradiente */
   border: none;
   color: white;
@@ -41,6 +41,7 @@ span {
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;
+  height: 50px;
 }
 
 .chamada:hover {
@@ -58,7 +59,7 @@ span {
 /* Seções específicas */
 .parte2,
 .parte4 {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
 
 }
 
