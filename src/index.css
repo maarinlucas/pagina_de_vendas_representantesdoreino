@@ -232,6 +232,10 @@ span {
   row-gap: 20px;
 }
 
+.descontoA p {
+  font-size: 16px;
+}
+
 .descontoA h2 {
   font-size: 27px;
 }
@@ -483,10 +487,12 @@ span {
   }
 
 
-
+  .descontoA p {
+    font-size: 13px;
+  }
   .descontoB s,
   .descontoB span {
-    font-size: 13px;
+    font-size: 14px;
   }
 
 
