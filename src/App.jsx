@@ -151,13 +151,13 @@ function App() {
             <p>De <s>14,90</s> por</p>
             <strong>9,99</strong>
             <p>em até <span>4x</span></p>
-            <button className='chamada' onClick={redirectToKirvano}>APROVEITAR OFERTA</button>
+            <button className='chamada2' onClick={redirectToKirvano}>APROVEITAR OFERTA</button>
           </div>
         </div>
       </div>
 
       <div className="parte4">
-        <h2 className="h24">Aproveite seu cupom limitado clicando no botão abaixo, adquira o ebook, e torne-se o próximo herói da fé!</h2>
+        <h2 className="h24">O que está esperando? Clique no botão abaixo e torne-se o próximo herói da fé!</h2>
         <button className='chamada' onClick={redirectToKirvano}>SIM, EU QUERO ME TORNAR UM HERÓI DA FÉ</button>
         <div className="Copyright">
           <div className="logo">
