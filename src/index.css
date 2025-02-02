@@ -38,7 +38,7 @@ span {
   max-width: 300px;
   min-width: 290px;
   font-weight: bold;
-  border-radius: 1px;
+  border-radius: 3px;
   cursor: pointer;
   transition: background 0.5s ease;
   height: 46px;
@@ -118,6 +118,7 @@ span {
 
 .parte1a p {
   letter-spacing: 1px;
+  font-size: 16px;
 }
 
 .parte1b {
@@ -168,6 +169,7 @@ span {
   max-width: 280px;
   min-width: 280px;
   line-height: 24px;
+  font-size: 16px;
 }
 
 .parte2b{
@@ -206,7 +208,7 @@ span {
   color: white;
   padding: 13px 8px; 
   font-weight: bold;
-  border-radius: 1px;
+  border-radius: 3px;
   cursor: pointer;
   height: 42px;
   transition: 0.2s;
@@ -368,7 +370,7 @@ span {
 
 
   .parte1a h1 {
-    font-size: 28px;
+    font-size: 32px;
     line-height: 1.0;
     letter-spacing: 3px;
     text-align: center;
