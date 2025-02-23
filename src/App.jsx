@@ -105,10 +105,7 @@ function App() {
       gsap.killTweensOf(".chamada")
       gsap.killTweensOf(".h24")
       gsap.killTweensOf(".Copyright")
-    }
-    
-
-
+    }  
   }, [])
 
 
@@ -118,7 +115,7 @@ function App() {
         <div className="parte1a">
           <h1>Os verdadeiros Heróis que <span>Transformaram</span> Gerações</h1>
           <p>Descubra hoje as histórias dos grandes heróis da fé, homens que transformaram gerações e ainda inspiram milhões. Garanta já o eBook clicando no botão abaixo e libere a sabedoria que pode mudar sua vida!</p>
-          <button className='chamada' onClick={redirectToKirvano}>QUERO ME TORNAR UM HERÓI DA FÉ</button>
+          <button className='chamada' onClick={redirectToKirvano}>QUERO MEU EBOOK AGORA</button>
         </div>
         <div className="parte1b">
           <div className="bookImg">
@@ -135,7 +132,7 @@ function App() {
           </p>
         </div>
         <div className="parte2b">
-          <button className='chamada' onClick={redirectToKirvano}>QUERO TRANSFORMAR MINHA VIDA AGORA</button>
+          <button className='chamada' onClick={redirectToKirvano}>BAIXAR MEU GUIA DOS HERÓIS DA FÉ</button>
         </div>
       </div>
 
@@ -158,7 +155,7 @@ function App() {
 
       <div className="parte4">
         <h2 className="h24">O que está esperando? Clique no botão abaixo e torne-se o próximo herói da fé!</h2>
-        <button className='chamada' onClick={redirectToKirvano}>SIM, EU QUERO ME TORNAR UM HERÓI DA FÉ</button>
+        <button className='chamada' onClick={redirectToKirvano}>QUERO ME TORNAR UM HERÓI DA FÉ</button>
         <div className="Copyright">
           <div className="logo">
             <img src={logo} alt="Logo" />

@@ -1,4 +1,5 @@
 npm run dev
+cd C:\Users\lucas\Desktop\projetos\pagina_de_vendas_representantesdoreino
 
 git init
 git add .
