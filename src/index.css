@@ -239,7 +239,7 @@ span {
 }
 
 .descontoA h2 {
-  font-size: 27px;
+  font-size: 30px;
 }
 
 .descontoB {
@@ -251,6 +251,8 @@ span {
 .descontoB strong {
   font-size: 44px;
 }
+
+
 
 .descontoB p {
   font-weight: bold;

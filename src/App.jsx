@@ -139,14 +139,14 @@ function App() {
       <div className="parte3">
         <div className="desconto">
           <div className="descontoA">
-            <h2><span>33%</span>  de desconto</h2>
-            <p>Utilize o cupom <strong><span>REPRESENTANTEDOREINO</span></strong><br /> e garanta o seu desconto<br />
-              Cupons limitados aproveite!
+            <h2><span>50%</span>  de desconto</h2>
+            <p>Utilize o cupom <strong><span>REPRESENTANTEDOREINO</span></strong><br /> e garanta o seu desconto<br /><br />
+              <strong className="ilimit">CUPONS LIMITADOS, APROVEITE!</strong>
             </p>
           </div>
           <div className="descontoB">
-            <p>De <s>14,90</s> por</p>
-            <strong>9,99</strong>
+            <p>De <s>19,90</s> por</p>
+            <strong>9,95</strong>
             <p>em até <span>4x</span></p>
             <button className='chamada2' onClick={redirectToKirvano}>APROVEITAR OFERTA</button>
           </div>
