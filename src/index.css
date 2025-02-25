@@ -193,7 +193,6 @@ span {
 .desconto {
   max-width: 500px;
   min-width: 500px;
-  height: 265px;
   width: 100%;
   display: grid;
   grid-template-columns: 60% 40%;
