@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 function App() {
   const redirectToKirvano = () => {
-    window.location.href = 'https://pay.kirvano.com/ba738c3c-d4ae-41ad-82f7-be252412c359';
+    window.location.href = 'https://pay.kirvano.com/596fdef3-be8a-4a7f-8b96-acb26adf92f7';
   };
 
   useLayoutEffect(() => {
