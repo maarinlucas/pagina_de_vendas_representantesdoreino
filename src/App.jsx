@@ -7,95 +7,95 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 function App() {
   const redirectToKirvano = () => {
-    window.location.href = 'https://pay.kirvano.com/776a100e-d53e-4f5e-9a5a-f5ca18bfe53d';
+    window.location.href = 'https://pay.kirvano.com/ba738c3c-d4ae-41ad-82f7-be252412c359';
   };
 
   useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-      gsap.to(".parte1a", {
-        x: 0,
-        y: 0,
-        opacity: 1,
-        scrollTrigger: {
-          trigger: ".parte1",
-          start: "top 100%"
-        }
-      });
+    gsap.to(".parte1a", {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".parte1",
+        start: "top 100%"
+      }
+    });
 
-     
-        gsap.to(".parte1b", {
-          x: 0,
-          y: 0,
-          opacity: 1,
-          scrollTrigger: {
-            trigger: ".parte1",
-            start: "top 100%"
-          }
-        });
-  
-        gsap.to(".parte2a", {
-          y: 0,
-          opacity: 1,
-          scrollTrigger: {
-            trigger: ".parte2",
-            start: "top 75%"
-          }
-        });
-  
-        gsap.to(".parte2b", {
-          y: 0,
-          opacity: 1,
-          scrollTrigger: {
-            trigger: ".parte2",
-            start: "top 75%"
-          }
-        });
-  
-        gsap.to(".desconto", {
-          opacity: 1,
-          scrollTrigger: {
-            trigger: ".parte3",
-             start: "top 75%"
-          }
-        });
-  
-        gsap.to(".h24", {
-          x: 0,
-          y: 0,
-          opacity: 1,
-          scrollTrigger: {
-            trigger: ".parte3",
-             start: "top 75%"
-          }
-        });
-  
-        gsap.to(".chamada", {
-          x: 0,
-          y: 0,
-          opacity: 1,
-          scrollTrigger: {
-            trigger: ".parte4",
-             start: "top 75%"
-          }
-        });
-  
-        gsap.to(".Copyright", {
-          x: 0,
-          y: 0,
-          opacity: 1,
-          scrollTrigger: {
-            trigger: ".parte4",
-             start: "top 75%"
-          }
-        });
-      
-    
- 
 
-      // Reavaliar quando a janela for redimensionada
-    
-      
+    gsap.to(".parte1b", {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".parte1",
+        start: "top 100%"
+      }
+    });
+
+    gsap.to(".parte2a", {
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".parte2",
+        start: "top 75%"
+      }
+    });
+
+    gsap.to(".parte2b", {
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".parte2",
+        start: "top 75%"
+      }
+    });
+
+    gsap.to(".desconto", {
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".parte3",
+        start: "top 75%"
+      }
+    });
+
+    gsap.to(".h24", {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".parte3",
+        start: "top 75%"
+      }
+    });
+
+    gsap.to(".chamada", {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".parte4",
+        start: "top 75%"
+      }
+    });
+
+    gsap.to(".Copyright", {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".parte4",
+        start: "top 75%"
+      }
+    });
+
+
+
+
+    // Reavaliar quando a janela for redimensionada
+
+
     return () => {
       gsap.killTweensOf(".parte1a")
       gsap.killTweensOf(".parte1b")
@@ -105,7 +105,7 @@ function App() {
       gsap.killTweensOf(".chamada")
       gsap.killTweensOf(".h24")
       gsap.killTweensOf(".Copyright")
-    }  
+    }
   }, [])
 
 
@@ -126,9 +126,9 @@ function App() {
 
       <div className="parte2">
         <div className="parte2a">
-          <p>Este e-book é uma obra original dos Representantes Do Reino, um canal de comunicação dedicada a pregar o evangelho de forma divertida, descontraída e original, nele você conhecer histórias de ums dos maiores heróis do cristianismo, depois dos apóstolos e profetas, além de poder connhecer algumas de suas frases mais impactantes, antes que se pergunte, este ebook vai te trazer grandes reflexões baseadas
+          <p>Este e-book é uma obra original dos Representantes Do Reino, um canal de comunicação dedicada a pregar o evangelho de forma divertida, descontraída e original, nele você conhecer histórias de ums dos maiores heróis do cristianismo, depois dos apóstolos e profetas, além de poder connhecer algumas de suas frases mais impactantes, antes que se pergunte, este ebook vai te trazer grandes reflexões baseadas em um contexto sólido da palavra de Deus,
           </p>
-          <p>em um contexto sólido da palavra de Deus, caso você tenha uma certa dificuldade em entende-la em sua totalidade, com certeza este livro te ajudará a entender pelo meno a base do que significa ser um discípulo de Jesus e a importancia de viver segundo os princípios ensinadas pela bíblia, tanto por ele como pelos profetas, adquira o seu e-book clicando no botão abaixo, tenho certeza que a sua leitura irá mudar a sua vida.
+          <p className='mTop'>Ele ajudará principalmente pessoas que se encontram com uma certa dificuldade de entender as escrituras, com toda a certeza este material te levará a compreender melhor a base do que significa ser um discípulo de Jesus e a importancia de viver segundo os princípios ensinados por ele, pelos profetas e por seus discípulos, adquira o seu e-book agora mesmo clicando no botão abaixo, tenho absoluta certeza que a sua leitura irá mudar a sua vida!
           </p>
         </div>
         <div className="parte2b">
@@ -145,9 +145,9 @@ function App() {
             </p>
           </div>
           <div className="descontoB">
-            <p>De <s>19,90</s> por</p>
+            <p>De <s>19,90</s> por apenas</p>
             <strong>9,95</strong>
-            <p>em até <span>4x</span></p>
+            <p>em até 4x!</p>
             <button className='chamada2' onClick={redirectToKirvano}>APROVEITAR OFERTA</button>
           </div>
         </div>

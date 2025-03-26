@@ -130,25 +130,23 @@ span {
 }
 
 .bookImg {
-  max-width: 400px;
-  min-width: 350px;
-  max-height: 400px;
+  max-width: 600px;
+  max-height: 550px;
   width: 100%;
   height: 100%;
-  position: relative;
 }
 
 .bookImg img {
   position: relative;
-  max-width: 106%;
-  max-height: 106%;
+  max-width: 100%;
+  max-height: 100%;
   right: -40px;
   top: -30px;
 
   /* Adicionando sombra suave */
 
   /* Adicionando brilho sutil */
-  filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.2));
+  filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.014));
 }
 
 .parte2 {
@@ -170,12 +168,15 @@ span {
 .parte2a p {
   letter-spacing: 1px;
   width: 100%;
-  max-width: 280px;
+  max-width: 320px;
   min-width: 280px;
   line-height: 24px;
-  font-size: 16px;
+  font-size: 18px;
   color: #E5E5E5;
+  text-indent: 10px;
 }
+
+
 
 .parte2b{
   opacity: 0;
@@ -191,9 +192,9 @@ span {
 }
 
 .desconto {
-  max-width: 500px;
-  min-width: 500px;
+  max-width: 650px;
   width: 100%;
+  height: 300px;
   display: grid;
   grid-template-columns: 60% 40%;
   border: solid #5275ff 1px;
@@ -224,13 +225,13 @@ span {
 .descontoB {
   display: flex;
   flex-direction: column;
-  padding: 40px 20px;
-
+  padding: 30px 40px;
+  justify-content: center;
 }
 
 .descontoA {
   background-color: #12161e;
-  row-gap: 20px;
+  row-gap: 40px;
 }
 
 .descontoA p {
@@ -244,7 +245,7 @@ span {
 .descontoB {
   background: linear-gradient(90deg, #5de0e6, #004aad);
   text-align: center;
-  row-gap: 3px;
+  row-gap: 5px;
 }
 
 .descontoB strong {
@@ -323,28 +324,16 @@ span {
 }
 
 @media (max-width: 780px) {
+  .parte2a .mTop {
+    margin-top: 40px;
+  
+  }
+
   .chamada {
-
-    font-size: 10px;
-    min-width: 150px;
-    max-width: 230px;
-  }
-
-  .parte4 .chamada {
-
-    font-size: 10px;
+    font-size: 12px;
     min-width: 250px;
     max-width: 280px;
   }
-
-  .parte2 .chamada {
-
-    font-size: 10px;
-    min-width: 250px;
-    max-width: 280px;
-  }
-
-
 
 
   .parte1,
@@ -354,9 +343,6 @@ span {
     width: 100%;
     padding: 50px 10px;
   }
-
-  
-
 
   .parte1 {
     display: flex;
@@ -432,9 +418,8 @@ span {
 
 
   .desconto {
-    max-width: 320px;
-    min-width: 320px;
-    height: 175px;
+    max-width: 100%;
+    height: 320px;
     width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
@@ -461,11 +446,11 @@ span {
   .descontoB {
     display: flex;
     flex-direction: column;
-    padding: 0px 0px;
+    padding: 4px 4px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 11px;
+    font-size: 16px;
   }
 
   .descontoA {
@@ -475,7 +460,7 @@ span {
   }
 
   .descontoA h2 {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .descontoB {
@@ -486,7 +471,7 @@ span {
   }
 
   .descontoB strong {
-    font-size: 27px;
+    font-size: 36px;
   }
 
 
